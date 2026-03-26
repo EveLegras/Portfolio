@@ -33,16 +33,6 @@
 			alignment: 'center'
 		});
 
-	// Gallery.
-		import lightGallery from "https://cdn.skypack.dev/lightgallery@2.0.0-beta.3";
-		
-		import lgZoom from "https://cdn.skypack.dev/lightgallery@2.0.0-beta.3/plugins/zoom";
-		
-		lightGallery(document.getElementById("gallery-container"), {
-		  speed: 500,
-		  plugins: [lgZoom]
-		});
-
 	// Nav.
 
 		// Bar.
