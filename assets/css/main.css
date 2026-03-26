@@ -188,6 +188,14 @@ input, select, textarea {
 
 /* Gallery */
 
+.gallery-container > a {
+  max-width: 200px;
+  max-height: 150px;
+  padding: 5px;
+  disply: inline-block;
+}
+
+/*
 	div.gallery {
 	  display: flex;
 	  flex-wrap: wrap;
@@ -213,7 +221,7 @@ input, select, textarea {
 	  padding: 15px;
 	  text-align: center;
 	}
-
+*/
 
 /* Container */
 
