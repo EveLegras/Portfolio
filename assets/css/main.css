@@ -188,7 +188,7 @@ input, select, textarea {
 
 /* Gallery */
 
-.gallery-container > a {
+.gallery-container a {
   display: contents;
   max-width: 200px;
   max-height: 150px;
