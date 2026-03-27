@@ -2554,7 +2554,7 @@ input, select, textarea {
 
 /* Box */
 
-	.box.highlight {
+	.box. {
 		text-align: center;
 	}
 
@@ -3018,6 +3018,7 @@ input, select, textarea {
 				text-align: left;
 				position: relative;
 				padding-left: 7em;
+				height: 600px;
 			}
 
 				.box.highlight i {
