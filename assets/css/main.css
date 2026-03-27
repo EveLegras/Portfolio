@@ -2560,7 +2560,7 @@ input, select, textarea {
 	}
 
 	.box.highlight .image{
-		object-fit: cover;
+
 		height: 600px;
 		width: auto;
 		margin: 0;;
