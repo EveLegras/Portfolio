@@ -255,15 +255,15 @@ input, select, textarea {
    column-gap:5px;
 }
 #gallery a {
-  width: calc(25% - 20px) !important;
+  width: calc(100% - 20px) !important;
   height: auto !important;
-   margin-bottom:5px; /* to match column gap */
+  margin-bottom:5px; /* to match column gap */
 }
 
 #gallery img {
-  width: calc(25% - 20px) !important;
+  width: calc(100% - 20px) !important;
   height: auto !important;
-   margin-bottom:5px; /* to match column gap */
+  margin-bottom:5px; /* to match column gap */
 }
 
 #gallery img:hover {
