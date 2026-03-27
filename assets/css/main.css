@@ -2558,10 +2558,11 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	.box.highlight img{
-			height: 600px;
-			width: auto;
-			margin: 0;;
+	.box.highlight .image{
+		object-fit: cover;
+		height: 600px;
+		width: auto;
+		margin: 0;;
 	}
 
 	.box.post {
