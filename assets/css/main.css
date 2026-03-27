@@ -266,7 +266,6 @@ input, select, textarea {
 }
 
 #gallery img:hover {
-	border: 1px solid #777;
 	  cursor: pointer;
 }
 
