@@ -2549,6 +2549,12 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.box.highlight .image{
+		  object-fit: cover;
+			width: 30%;
+			margin: 0;;
+	}
+
 	.box.post {
 		position: relative;
 		margin: 0 0 2em 0;
