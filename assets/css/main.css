@@ -189,11 +189,10 @@ input, select, textarea {
 /* Gallery */
 
 .gallery-container a {
-  display: contents;
   max-width: 200px;
   max-height: 150px;
   padding: 5px;
-  disply: inline-block;
+  display: inline-block;
 }
 
 .gallery-container img:hover {
