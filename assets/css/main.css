@@ -2610,7 +2610,9 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	.box.highlight .image{
+	.bars img{
+		height: -webkit-fill-available;
+		width: auto;
 		overflow: hidden;
 		margin: 0;
 	}
