@@ -189,7 +189,7 @@ input, select, textarea {
 /* Gallery */
 
 .gallery-container a {
-  max-width: 200px;
+  max-width: 300px;
   max-height: auto;
   padding: 5px;
 }
