@@ -209,6 +209,7 @@ input, select, textarea {
 
 #gbars img:hover {
 	border: 1px solid #777;
+	  cursor: pointer;
 }
 
 @media screen (max-width: 1200px) {
@@ -267,6 +268,7 @@ input, select, textarea {
 
 #gallery img:hover {
 	border: 1px solid #777;
+	  cursor: pointer;
 }
 
 @media screen (max-width: 1200px) {
