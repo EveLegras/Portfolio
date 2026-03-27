@@ -194,16 +194,16 @@ input, select, textarea {
    -moz-column-gap:5px;
    column-count:5;
    column-gap:5px;
+	overflow: hidden;
 }
 #gbars a {
-   width: 100% !important;
-   height: auto !important;
+   height: 600px !important;
    margin-bottom:5px; /* to match column gap */
 }
 
 #gbars img {
-   width: 100% !important;
-   height: auto !important;
+   width: auto !important;
+   height: 600px !important;
    margin-bottom:5px; /* to match column gap */
 }
 
