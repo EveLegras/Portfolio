@@ -201,7 +201,7 @@ input, select, textarea {
 }
 
 	div.gallery {
-	  /* display: flex; */
+	  display: flex;
 	  flex-wrap: wrap;
 	  justify-content: center;
 	}
