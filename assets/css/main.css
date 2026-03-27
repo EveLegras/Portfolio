@@ -2560,6 +2560,7 @@ input, select, textarea {
 	}
 
 	.box.highlight .image{
+		overflow: hidden;
 		margin: 0;
 	}
 
@@ -3025,6 +3026,7 @@ input, select, textarea {
 					margin: 0;
 					left: 0;
 					top: 0.25em;
+					
 				}
 
 			.box.post .inner {
