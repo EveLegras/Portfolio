@@ -261,7 +261,7 @@ input, select, textarea {
 } 
 
 #gallery img {
-  width: calc(20% - 20px) !important;
+  width: calc(20vw - 20px) !important;
   height: auto !important;
 }
 
