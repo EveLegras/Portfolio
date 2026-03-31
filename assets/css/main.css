@@ -204,7 +204,7 @@ input, select, textarea {
 
 #gbars img {
    width: auto !important;
-   height: 600px !important;
+   height: clamp(300px, 600px, 600px) !important;
   margin-bottom:5px; /* to match column gap */
 }
 
@@ -2977,7 +2977,7 @@ div.gallery {
 /* Footer */
 
 	#footer {
-		padding: 4em 0 8em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		#footer a {
