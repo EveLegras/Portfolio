@@ -197,9 +197,32 @@ input, select, textarea {
    overflow: hidden;
 }
 
+
 #gbars a {
-   height: 600px !important;
-   margin-bottom:5px; /* to match column gap */
+	position: relative;
+  margin-bottom:5px;
+	line-height: 0px;
+	width: inherit;
+	height: calc(100% - 10);
+	border-bottom: 0px;
+  vertical-align:top;
+	overflow: hidden;
+}
+
+.barAnim {
+  width: inherit;
+  height: 100px;
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
+  position: absolute;
+	bottom: 10px;
+	left: 0px;
+  opacity: 0;
+
+}
+a:hover .barAnim{
+	  animation-name: myAnimation;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
 }
 
 #gbars img {
