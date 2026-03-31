@@ -245,22 +245,25 @@ input, select, textarea {
 
 /* Gallery */
 #gallery {
-   line-height:0;
-   -webkit-column-count:5; /* split it into 5 columns */
-   -webkit-column-gap:5px; /* give it a 5px gap between columns */
-   -moz-column-count:5;
-   -moz-column-gap:5px;
-   column-count:5;
-   column-gap:5px;
+
 }
 
+div.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+		
+}
 
 #gallery a {
-  margin-bottom:5px;
+	line-height: 0px;
+	height: calc(100% - 10);
+	border-bottom: 0px;
   vertical-align:top;
 } 
 
 #gallery img {
+	margin: 0 5px 5px 0;
   width: auto !important;
   height: calc(20vw - 20px) !important;
 }
