@@ -201,7 +201,7 @@ input, select, textarea {
    height: 600px !important;
    margin-bottom:5px; /* to match column gap */
 }
-#gbars:hover .a {
+#gbars:hover .barOver {
   width: 100%;
   left: 0;
 }
