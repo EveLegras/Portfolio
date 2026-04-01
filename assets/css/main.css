@@ -227,6 +227,23 @@ input, select, textarea {
 	font-size: clamp(2rem, 2.5vw, 3.5rem) !important;
 }
 
+@media  (max-width: 500px) {
+	.barAnim {
+  height: 200px;
+	bottom: 10px;
+	left: 0px;
+
+  }
+	.barAnim h2 {
+		bottom: 30%;
+		left: 2%;
+		font-size: 3em;
+		color: red;
+		writing-mode: vertical-rl;
+		line-height: 2.5rem ;
+	}
+}
+
 a:hover .barAnim{
 	  animation-name: myAnimation;
   animation-duration: 1s;  
