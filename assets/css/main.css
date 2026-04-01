@@ -217,8 +217,15 @@ input, select, textarea {
 	bottom: 10px;
 	left: 0px;
   opacity: 0;
-
+	mix-blend-mode: hard-light;
 }
+.barAnim h2 {
+	position: absolute;
+	top: -7%;
+	left: 2%;
+	font-size: clamp(2rem, 2.5vw, 3.5rem) !important;
+}
+
 a:hover .barAnim{
 	  animation-name: myAnimation;
   animation-duration: 1s;  
