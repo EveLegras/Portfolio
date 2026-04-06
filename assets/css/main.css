@@ -189,21 +189,22 @@ input, select, textarea {
 #gbars {
    line-height:0;
    -webkit-column-count:4; /* split it into 5 columns */
-   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -webkit-column-gap:0px; /* give it a 5px gap between columns */
    -moz-column-count:4;
-   -moz-column-gap:5px;
+   -moz-column-gap:0px;
    column-count:4;
-   column-gap:5px;
+   column-gap:0px;
    overflow: hidden;
 }
 
 
 #gbars a {
+	display: inline-block;
 	position: relative;
   margin-bottom:5px;
 	line-height: 0px;
-	width: inherit;
-	height: calc(100% - 10);
+	width: -moz-available;
+	height: clamp(300px, 600px, 600px);
 	border-bottom: 0px;
   vertical-align:top;
 	overflow: hidden;
@@ -212,42 +213,44 @@ input, select, textarea {
 .barAnim {
   width: inherit;
   height: 100px;
-  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5));
   position: absolute;
-	bottom: 10px;
+	bottom: 0px;
 	left: 0px;
   opacity: 0;
 	mix-blend-mode: hard-light;
-		  cursor: pointer;
+	cursor: pointer;
+
 }
 .barAnim h2 {
 	margin: 0 0 0 0;
 		color: white;
 	position: absolute;
 	top: -7%;
-	left: 2%;
+	left: 15%;
 	font-size: clamp(2rem, 2.5vw, 3.5rem);
 	cursor: pointer;
 }
 
 @media  (max-width: 500px) {
 	.barAnim {
-  height: 200px;
-	bottom: 370px;
+		  background-image: linear-gradient(to top right, rgba(0,0,0,0), rgba(0,0,0,0.5));
+  height: 400px;
+	top: 0px;
 	left: 0px;
 
   }
 	.barAnim h2 {
-		bottom: 30%;
-		left: 2%;
+		top: 15%;
+		left: 25%;
 		font-size: 4em;
 		writing-mode: vertical-rl;
-		line-height: 2.5rem ;
+		line-height: 2rem ;
 	}
 }
 
 a:hover .barAnim{
-	  animation-name: myAnimation;
+	animation-name: myAnimation;
   animation-duration: 1s;  
   animation-fill-mode: forwards;
 }
@@ -298,6 +301,7 @@ a:hover .barAnim{
     column-count:         4;
    }
 }
+
 
 /* Gallery */
 #gallery {
