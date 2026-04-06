@@ -2717,7 +2717,7 @@ a:hover .barAnim{
 
 		.box.post .image {
 			width: 30%;
-			margin: 0;
+			margin: 0 30px 0 0;
 		}
 
 /* Header */
