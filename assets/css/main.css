@@ -439,6 +439,7 @@ a:hover .barAnim{
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		padding-bottom: 2em;
 	}
 
 		.row > * {
