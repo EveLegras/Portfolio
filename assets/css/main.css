@@ -2714,7 +2714,7 @@ a:hover .barAnim{
 		margin: 0 0 2em 0;
 	}
 
-		.box.post:after {
+		.box.post::after {
 			content: '';
 			display: block;
 			clear: both;
