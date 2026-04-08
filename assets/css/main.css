@@ -189,6 +189,15 @@ input, select, textarea {
 	}
 
 
+/* Games */
+
+.image .vimeo {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
 /* Gallery bars */
 #gbars {
    line-height:0;
